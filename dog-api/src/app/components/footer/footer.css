@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 1vh;
+    color: #f0fff4;
+    font-size: 1.1rem;
+    background-color: #1e593c;
+}
+.git{
+    display: flex;
+    gap: 5px;
+}
+.git i{
+    font-size: 1.3rem;
+}
+footer a{
+    color: #88ffad;
+}
