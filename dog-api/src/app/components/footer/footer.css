@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    gap: 1vh;
+    gap: 2vh;
     color: #f0fff4;
     font-size: 1.1rem;
     background-color: #1e593c;
@@ -16,4 +16,8 @@ footer{
 }
 footer a{
     color: #88ffad;
+    transition: all 0.5s;
+}
+footer a:hover{
+     color: #2ecc71;
 }
