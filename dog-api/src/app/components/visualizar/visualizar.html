@@ -1,0 +1,13 @@
+<div class="container-principal">
+    <h2>Mosaico de {{ racaAtual() | titlecase }}</h2>
+    <div class="grid-fotos">
+        <img *ngFor="let url of urlImagem()" [src]="url" class="foto-dog" alt="Foto de cachorro">
+    </div>
+
+    <div *ngIf="urlImagem().length === 0">
+        <p>Carregando as 9 fotos...</p>
+    </div>
+
+    <br>
+    <a href="/">Voltar</a>
+</div>

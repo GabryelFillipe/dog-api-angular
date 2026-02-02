@@ -7,12 +7,10 @@
 
     <div class="input-container">
 
+        <input type="text" placeholder="Digite a Raça" class="input-raca"  (keyup.enter)="buscar(inputRaca.value)"#inputRaca>
 
-        <input type="text" placeholder="Digite a Raça" class="input-raca" #inputRaca>
-
-        <button class="btn-busca">
+        <button class="btn-busca" type="button" (click)="buscar(inputRaca.value)">
             Buscar Raça
         </button>
     </div>
 </header>
-<!--(click)="buscar(inputRaca.value)" -->
