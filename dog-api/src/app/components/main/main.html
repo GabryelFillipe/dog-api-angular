@@ -1,7 +1,7 @@
 <main>
     <div class="central">
         <h1>Busque seu amigo de pata!</h1>
-            <img src="icons/dogo-argentino.png" alt="cachorro">
-            <input type="text" placeholder="Digite sua Raça" class="input-principal" >
+        <img src="icons/dogo-argentino.png" alt="cachorro">
     </div>
+            <input type="text" placeholder="Digite sua Raça" class="input-principal"  (keyup.enter)="navegarParaRaca(inputRaca.value)" #inputRaca>
 </main>

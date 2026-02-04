@@ -1,32 +1,28 @@
-main{
-    display: flex;
-    justify-content: center;
-    min-width: 100vw;
-    width: 100%;
-}
-
-main img {
-    z-index: 0;
-}
-
-main h1{
-    font-size: 3.5rem;
-    color: rgba(30, 77, 46, 0.851);
-}
-
-.central{
-    flex: 1;
+/* Dentro de main.css */
+:host {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-main input{
-    z-index: 1;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .central {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    color: rgba(30, 77, 46, 0.851);
+  }
+  
+  input {
     width: 70%;
-    height: 5vh;
+    height: 45px;
     border-radius: 7rem;
     text-align: center;
     margin: 10px;
-    font-size: 2rem;
-}
+    font-size: 1.5rem;
+  }
