@@ -1,11 +1,11 @@
 <div class="container-principal">
-    <h2>Mosaico de {{ racaAtual() | titlecase }}</h2>
-    <div class="grid-fotos">
+    <h2 *ngIf="urlImagem().length > 0">Mosaico de {{ racaAtual() | titlecase }}</h2>
+    <div class="grid-fotos" *ngIf="urlImagem().length > 0">
         <img *ngFor="let url of urlImagem()" [src]="url" class="foto-dog" alt="Foto de cachorro">
     </div>
 
     <div *ngIf="urlImagem().length === 0">
-        <p>Carregando as 9 fotos...</p>
+        <p class="red" >{{mensagemErro()}}</p>
     </div>
     <div class="retorno">
         <button class="voltar">

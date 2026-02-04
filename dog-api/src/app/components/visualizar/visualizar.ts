@@ -16,7 +16,9 @@ export class Visualizar implements OnInit {
 
   urlImagem = signal<string[]>([])
 
-  racaAtual = signal<string>('');
+  racaAtual = signal<string>('')
+
+  mensagemErro = signal<string>('')
 
   ngOnInit() {
 
@@ -28,12 +30,17 @@ export class Visualizar implements OnInit {
         this.racaAtual.set(raca)
 
         this.urlImagem.set([])
+        this.mensagemErro.set('')
 
         this.dogService.buscarImagemPorRaca(raca).subscribe({
           next: (dados) => {
+            if (dados.message === 0){
+              console.log('ghjdsfsdfsd')
+            }
             this.urlImagem.set(dados.message)
           },
-          error: (err) => console.error(err)
+        
+          error: (err) => this.mensagemErro.set(`Raça ${raca} não encontrada`)
         })
       }
     })
