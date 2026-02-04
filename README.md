@@ -68,7 +68,13 @@ ng g c nome-do-componente
 ```
 
 ---
-
+## Como rodar a aplicação
+```
+npm install
+```
+```
+npm start
+```
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
