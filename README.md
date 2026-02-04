@@ -4,7 +4,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
-<img src="imagem.png" alt="Exemplo imagem">
+
+<img src="https://github.com/user-attachments/assets/ee48e865-f3a3-454d-9e4b-7e62b545ff21" alt="Exemplo imagem">
 
 > A aplicação tem como finalidade a utilização da framework Angula para a criação de um website que possa consumir a API Dog. 
 > O website deve retornar a raça de cachorros digitadas na barra de pesquisa.
@@ -65,14 +66,14 @@ ng new <project-name>
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
 
 - [x] Fundamentar a escolha do framework dentro do projeto.
-- [ ] O README.md deverá conter informações detalhadas sobre o framework e sua forma de utilização. 
-- [ ] O README.md deve conter as configurações para a instalação do framework dentro do projeto, detalhando-o seus requisitos, comandos de criação e execução localmente. 
-- [ ] A aplicação deve-se basear com um design de página inicial no estilo Google
-- [ ] A aplicação deve redirecionar para uma navegação para a tela de resultados da pesquisa.
-- [ ] A aplicação deve retornar o nome e imagens da raça pesquisadas.
-- [ ] A aplicação deve retornar mensagem de erro personalizada caso não retorne uma raça válida
-- [ ] A aplicação deve conter um botão para retorno sobre à tela inicial
-- [ ] Criação de slides relatando sobre a framework utilizada com imagens do código e do projeto.
+- [x] O README.md deverá conter informações detalhadas sobre o framework e sua forma de utilização. 
+- [x] O README.md deve conter as configurações para a instalação do framework dentro do projeto, detalhando-o seus requisitos, comandos de criação e execução localmente. 
+- [x] A aplicação deve-se basear com um design de página inicial no estilo Google
+- [x] A aplicação deve redirecionar para uma navegação para a tela de resultados da pesquisa.
+- [x] A aplicação deve retornar o nome e imagens da raça pesquisadas.
+- [x] A aplicação deve retornar mensagem de erro personalizada caso não retorne uma raça válida
+- [x] A aplicação deve conter um botão para retorno sobre à tela inicial
+- [x] Criação de slides relatando sobre a framework utilizada com imagens do código e do projeto.
 
 ## 🤝 Colaboradores
 
