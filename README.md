@@ -53,10 +53,18 @@ npm install -g @angular/cli
 
 ## ☕ Criando um projeto
 
-Para criar um projeto em, siga estas etapas:
+Para criar um projeto em Angular, siga estas etapas:
 
 ```
 ng new <project-name>
+```
+
+## Criando um Componente
+
+Para a criação de um componente no Angular:
+
+```
+ng g c nome-do-componente
 ```
 
 ---
