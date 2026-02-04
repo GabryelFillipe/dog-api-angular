@@ -14,6 +14,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   padding-inline: 10vw;
+  height: 60vh;
+  scrollbar-width: none;
+  overflow-y: auto;
+  padding-block: 15px;
   margin: 0 auto;
 }
 .retorno {
@@ -47,19 +51,27 @@
 }
 
 .foto-dog:hover {
+  cursor: zoom-in;
   transform: scale(1.05);
 }
+@media (max-width: 950px) {
+  .grid-fotos {
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 10vw;
+  }
+  .foto-dog {
+    height: 200px;
+  }
+}
+
 @media (max-width: 650px) {
   .container-principal {
     font-size: 1.4rem;
   }
-  .foto-dog {
-
-  }
-
-}
-@media (max-width: 950px) {
   .grid-fotos {
-    grid-template-columns: 1fr;
+    padding-inline: 5vw;
+  }
+  .foto-dog {
+    height: 160px;
   }
 }

@@ -4,8 +4,10 @@ header {
   justify-content: space-between;
   align-items: center;
   color: white;
+  width: 100%;
   padding: 1rem 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px #0000001a;
+  /* position: absolute; */
 }
 header h1 {
   font-size: 3rem;

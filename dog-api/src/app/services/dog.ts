@@ -10,13 +10,13 @@ import { Observable } from 'rxjs';
 })
 // Responsavel por realizar a requisição na api dog
 export class Dog {
-  // HttpClient seria o semelhante do fetch do angular 
+  // HttpClient seria o semelhante do fetch 
   private http = inject(HttpClient)
 
   private apiUrl = 'https://dog.ceo/api/breed'
 
   buscarImagemPorRaca(raca: string): Observable<any> {
-    const url = `${this.apiUrl}/${raca.toLowerCase()}/images/random/9`
+    const url = `${this.apiUrl}/${raca.toLowerCase()}/images`
     
     return this.http.get<any>(url)
   }
