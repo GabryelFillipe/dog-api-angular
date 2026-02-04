@@ -1,3 +1,21 @@
 main{
-    
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+    z-index: 0;
+}
+
+main h1{
+    font-size: 2rem;
+}
+
+main input{
+    z-index: 1;
+    width: 18vw;
+    height: 5vh;
+    display: flex;
+    border-radius: 100px;
+    text-align: center;
 }
