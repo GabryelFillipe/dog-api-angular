@@ -19,7 +19,7 @@ export class Visualizar implements OnInit {
   mensagemErro = signal<string>('')
 
   ngOnInit() {
-    // Fica observando a URL para saber quando a raça digitada muda
+    // Observa a URL para saber quando a raça digitada muda
     this.route.paramMap.subscribe((params) => {
       const raca = params.get('raca')
 
