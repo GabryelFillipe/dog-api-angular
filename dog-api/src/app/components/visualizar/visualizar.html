@@ -1,5 +1,5 @@
 <div class="container-principal">
-    <h2 *ngIf="urlImagem().length > 0">Mosaico de {{ racaAtual() | titlecase }}</h2>
+    <h2 *ngIf="urlImagem().length > 0">Galeria de {{ racaAtual() | titlecase }}</h2>
     <div class="grid-fotos" *ngIf="urlImagem().length > 0">
         <img *ngFor="let url of urlImagem()" [src]="url" class="foto-dog" alt="Foto de cachorro">
     </div>

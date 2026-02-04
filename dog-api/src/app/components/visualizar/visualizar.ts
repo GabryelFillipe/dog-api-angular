@@ -34,9 +34,7 @@ export class Visualizar implements OnInit {
 
         this.dogService.buscarImagemPorRaca(raca).subscribe({
           next: (dados) => {
-            if (dados.message === 0){
-              console.log('ghjdsfsdfsd')
-            }
+      
             this.urlImagem.set(dados.message)
           },
         
